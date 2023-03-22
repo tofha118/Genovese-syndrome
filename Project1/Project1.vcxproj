@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3AA23347-B810-48B9-A586-790029FC4EA0}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="-1.bmp" />
+    <Image Include="-2.bmp" />
+    <Image Include="4구엔딩.bmp" />
+    <Image Include="5구엔딩.bmp" />
+    <Image Include="Arrow.bmp" />
+    <Image Include="bed.bmp" />
+    <Image Include="bitmap46.bmp" />
+    <Image Include="bitmap73.bmp" />
+    <Image Include="bitmap78.bmp" />
+    <Image Include="bitmap81.bmp" />
+    <Image Include="Black.bmp" />
+    <Image Include="Black2.bmp" />
+    <Image Include="Board.bmp" />
+    <Image Include="BokDo.bmp" />
+    <Image Include="BokDo1.bmp" />
+    <Image Include="BokDo2.bmp" />
+    <Image Include="BokDo3.bmp" />
+    <Image Include="BokDo4.bmp" />
+    <Image Include="BokDo5.bmp" />
+    <Image Include="Boom.bmp" />
+    <Image Include="box1.bmp" />
+    <Image Include="box2.bmp" />
+    <Image Include="box3.bmp" />
+    <Image Include="cabinet.bmp" />
+    <Image Include="CloseIronBar.bmp" />
+    <Image Include="Day.bmp" />
+    <Image Include="Digial.bmp" />
+    <Image Include="DigitalNum.bmp" />
+    <Image Include="EndingEnd.bmp" />
+    <Image Include="Inventory.bmp" />
+    <Image Include="Inventory2.bmp" />
+    <Image Include="key.bmp" />
+    <Image Include="Lecture table.bmp" />
+    <Image Include="Left Door.bmp" />
+    <Image Include="Lock.bmp" />
+    <Image Include="Locker.bmp" />
+    <Image Include="LockPW.bmp" />
+    <Image Include="Map.bmp" />
+    <Image Include="Music.bmp" />
+    <Image Include="music_desk.bmp" />
+    <Image Include="NPC.bmp" />
+    <Image Include="NPC1Die.bmp" />
+    <Image Include="NPC1Ill.bmp" />
+    <Image Include="NPC1Ill2.bmp" />
+    <Image Include="NPC1Ill3.bmp" />
+    <Image Include="NPC2.bmp" />
+    <Image Include="NPC2Die.bmp" />
+    <Image Include="NPC2Ill.bmp" />
+    <Image Include="NPC2Ill2.bmp" />
+    <Image Include="NPC2Ill3.bmp" />
+    <Image Include="NPC2Ill4.bmp" />
+    <Image Include="NPC2Move.bmp" />
+    <Image Include="NPC2Move_.bmp" />
+    <Image Include="NPC2_.bmp" />
+    <Image Include="NPC3.bmp" />
+    <Image Include="NPC3Die.bmp" />
+    <Image Include="NPC3Ill.bmp" />
+    <Image Include="NPC3Ill2.bmp" />
+    <Image Include="NPC3Ill3.bmp" />
+    <Image Include="NPC3Ill4.bmp" />
+    <Image Include="NPC3Move.bmp" />
+    <Image Include="NPC3Move_.bmp" />
+    <Image Include="NPC3_.bmp" />
+    <Image Include="NPC4.bmp" />
+    <Image Include="NPC4Die.bmp" />
+    <Image Include="NPC4Ill.bmp" />
+    <Image Include="NPC4Ill2.bmp" />
+    <Image Include="NPC4Move.bmp" />
+    <Image Include="NPC4Move_.bmp" />
+    <Image Include="NPC4_.bmp" />
+    <Image Include="NPCEnding1.bmp" />
+    <Image Include="NPCEnding2.bmp" />
+    <Image Include="NPCEnding3.bmp" />
+    <Image Include="NPCEnding4.bmp" />
+    <Image Include="NPCMove.bmp" />
+    <Image Include="NPCMove_.bmp" />
+    <Image Include="NPC_.bmp" />
+    <Image Include="office chair.bmp" />
+    <Image Include="office chair_.bmp" />
+    <Image Include="office desk.bmp" />
+    <Image Include="office desk_.bmp" />
+    <Image Include="OpenIronBar.bmp" />
+    <Image Include="Option.bmp" />
+    <Image Include="piano.bmp" />
+    <Image Include="PianoChair.bmp" />
+    <Image Include="PlayerMove.bmp" />
+    <Image Include="PlayerMove2.bmp" />
+    <Image Include="Player_1.bmp" />
+    <Image Include="Player_2.bmp" />
+    <Image Include="Player_3.bmp" />
+    <Image Include="Player_4.bmp" />
+    <Image Include="Right Door.bmp" />
+    <Image Include="School chair1.bmp" />
+    <Image Include="School chair2.bmp" />
+    <Image Include="school desk1.bmp" />
+    <Image Include="school desk2.bmp" />
+    <Image Include="school desk3.bmp" />
+    <Image Include="See.bmp" />
+    <Image Include="Skeleton.bmp" />
+    <Image Include="SoloEnding.bmp" />
+    <Image Include="TextBox.bmp" />
+    <Image Include="TextBox2.bmp" />
+    <Image Include="Title.bmp" />
+    <Image Include="교실B,음악실,교무실.bmp" />
+    <Image Include="교실D.bmp" />
+    <Image Include="교장실,교실C.bmp" />
+    <Image Include="창고,교실A,보건실,숙직실.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project11.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

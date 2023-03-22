@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\NPC1">
+      <UniqueIdentifier>{82e251da-21a3-41c0-ad58-7cb8d9ef577f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\NPC2">
+      <UniqueIdentifier>{e1c2839f-a1b1-4fa2-a7ab-c3f938c880ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\NPC3">
+      <UniqueIdentifier>{457267f9-6156-4507-9324-b6e73af222b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\NPC4">
+      <UniqueIdentifier>{07ee9b59-1967-4e19-ad54-7b73d8dd5694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\BG">
+      <UniqueIdentifier>{61bcef3c-6c40-4ed3-9141-b98df15d9a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Player">
+      <UniqueIdentifier>{5b771dbd-c892-423e-95bb-46feb2518623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Obj">
+      <UniqueIdentifier>{18a4db92-c6c7-4fa0-ba15-0a39771e4037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\UI">
+      <UniqueIdentifier>{24017d29-16fd-4a8d-96af-3e5a90403acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\기타">
+      <UniqueIdentifier>{f9424768-ce5f-4cd2-9cae-7f15555933f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\Ending">
+      <UniqueIdentifier>{5e8beb84-462f-4ecc-bc54-be9e8fdae3aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="NPC.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="NPC_.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="NPC1Ill.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="NPC1Ill2.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="NPC2.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="NPC2_.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="NPC2Move.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="NPC2Move_.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="NPC3.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC3_.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC3Move.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC3Move_.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC4.bmp">
+      <Filter>리소스 파일\NPC4</Filter>
+    </Image>
+    <Image Include="NPC4_.bmp">
+      <Filter>리소스 파일\NPC4</Filter>
+    </Image>
+    <Image Include="NPC4Move.bmp">
+      <Filter>리소스 파일\NPC4</Filter>
+    </Image>
+    <Image Include="NPC4Move_.bmp">
+      <Filter>리소스 파일\NPC4</Filter>
+    </Image>
+    <Image Include="BokDo.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="BokDo1.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="BokDo2.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="BokDo3.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="BokDo4.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="BokDo5.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="교실B,음악실,교무실.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="교실D.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="교장실,교실C.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="창고,교실A,보건실,숙직실.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="Right Door.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="Left Door.bmp">
+      <Filter>리소스 파일\BG</Filter>
+    </Image>
+    <Image Include="PlayerMove.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="PlayerMove2.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="NPCMove.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="NPCMove_.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="Player_1.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="Player_2.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="-1.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="-2.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="CloseIronBar.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="OpenIronBar.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="TextBox.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="NPC2Ill.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="NPC2Ill2.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="NPC3Ill.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC3Ill2.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC4Ill2.bmp">
+      <Filter>리소스 파일\NPC4</Filter>
+    </Image>
+    <Image Include="NPC4Ill.bmp">
+      <Filter>리소스 파일\NPC4</Filter>
+    </Image>
+    <Image Include="bitmap46.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="Skeleton.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="school desk3.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="school desk1.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="school desk2.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="TextBox2.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="box1.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="box2.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="box3.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="Board.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="Inventory.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="Map.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="Day.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="office chair.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="office chair_.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="PianoChair.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="School chair1.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="School chair2.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="piano.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="office desk.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="Locker.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="Lecture table.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="cabinet.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="bed.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="office desk_.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="NPC2Die.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="bitmap73.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="Music.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="key.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="Black.bmp">
+      <Filter>리소스 파일\기타</Filter>
+    </Image>
+    <Image Include="Black2.bmp">
+      <Filter>리소스 파일\기타</Filter>
+    </Image>
+    <Image Include="bitmap78.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="Lock.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="LockPW.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="music_desk.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="bitmap81.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="Player_3.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="Player_4.bmp">
+      <Filter>리소스 파일\Player</Filter>
+    </Image>
+    <Image Include="NPC1Ill3.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="NPC3Ill3.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC3Ill4.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC2Ill3.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="NPC2Ill4.bmp">
+      <Filter>리소스 파일\NPC2</Filter>
+    </Image>
+    <Image Include="Digial.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="DigitalNum.bmp">
+      <Filter>리소스 파일\Obj</Filter>
+    </Image>
+    <Image Include="NPC3Die.bmp">
+      <Filter>리소스 파일\NPC3</Filter>
+    </Image>
+    <Image Include="NPC4Die.bmp">
+      <Filter>리소스 파일\NPC4</Filter>
+    </Image>
+    <Image Include="NPC1Die.bmp">
+      <Filter>리소스 파일\NPC1</Filter>
+    </Image>
+    <Image Include="Inventory2.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="4구엔딩.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="5구엔딩.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="EndingEnd.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="NPCEnding1.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="NPCEnding2.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="NPCEnding3.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="NPCEnding4.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="SoloEnding.bmp">
+      <Filter>리소스 파일\Ending</Filter>
+    </Image>
+    <Image Include="Title.bmp">
+      <Filter>리소스 파일\기타</Filter>
+    </Image>
+    <Image Include="Arrow.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="Boom.bmp">
+      <Filter>리소스 파일\UI</Filter>
+    </Image>
+    <Image Include="See.bmp">
+      <Filter>리소스 파일\기타</Filter>
+    </Image>
+    <Image Include="Option.bmp">
+      <Filter>리소스 파일\기타</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project11.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
